@@ -1,0 +1,124 @@
+li {
+    display: inline-block;
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    color: #1697D1;
+    text-decoration: none;
+}
+
+h2 {
+    color: #1697D1;
+}
+
+input,
+textarea {
+    width: 60%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    padding: 0.5em;
+    margin-top: 1em;
+
+}
+
+button {
+    color: white;
+    background-color: #1697D1;
+    border: none;
+    border-radius: 7px;
+    padding: 0.3em;
+}
+
+.container-generic {
+    padding: 1em;
+    box-sizing: border-box;
+    width: min(90%, 500px);
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+
+.cel {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.menu_nav {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    font-size: large;
+    list-style-type: none !important;
+}
+
+.coments {
+    position: relative;
+    right: 14px;
+}
+
+.email {
+    position: relative;
+    left: 11px;
+}
+
+.image {
+    height: 50px;
+    width: auto;
+}
+
+.house {
+    height: 100%;
+    text-align: left;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+
+.house-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: block;
+}
+
+.landing-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.house-title {
+    height: 3.9em;
+    line-height: 1.3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.info-button {
+    margin-top: 1em;
+    align-self: flex-start;
+    padding: 0.3em;
+}
+
+#coments {
+    display: inline-block;
+    vertical-align: top;
+}
